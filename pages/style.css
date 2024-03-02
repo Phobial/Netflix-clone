@@ -116,8 +116,7 @@
     height: 30px;
 }
 .menu-bar{
-    margin-right: 300px;
-    
+    margin-right: 500px;
 }
 .menu-bar a {
     font-size: 16px;
@@ -127,20 +126,24 @@
 .navbar button{
     border: none;
 }
-.row-cols-3{
-    width: 100%;
+.row-cols-5{
+    max-width: 100%;
     display: flex;
     overflow-x: auto;
 }
-.col{
-    width:300px;
+.poster{
+    width:350px;
     height: 200px;
     text-align: center;
-    background-color: #fff;
     nav-down: auto;
     margin-right: 10px;
-    margin-top: 10px;
+ 
 }
-.row-cols-3::-webkit-scrollbar{
+.row-cols-5::-webkit-scrollbar{
     width: 0;
+    
+}
+.content-title{
+    color: #fff;
+
 }
