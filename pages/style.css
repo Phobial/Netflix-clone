@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 .navbar {
     background-color: rgba(0, 0, 0, 0);
     width: 100%;
@@ -116,7 +120,7 @@
     height: 30px;
 }
 .menu-bar{
-    margin-right: 500px;
+    margin-right: 400px;
 }
 .menu-bar a {
     font-size: 16px;
