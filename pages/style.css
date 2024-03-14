@@ -130,6 +130,9 @@ body{
 .navbar button{
     border: none;
 }
+.navbar button:hover{
+    background-color: black;
+}
 .row-cols-5{
     max-width: 100%;
     display: flex;
